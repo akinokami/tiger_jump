@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:dragon_jump/game/game.dart';
-import 'package:dragon_jump/overlays/pause_menu.dart';
-import 'package:dragon_jump/overlays/sound_settings_menu.dart';
+import 'package:tiger_jump/game/game.dart';
+import 'package:tiger_jump/overlays/pause_menu.dart';
+import 'package:tiger_jump/overlays/sound_settings_menu.dart';
 
 class SoundPauseButtons extends StatelessWidget {
   const SoundPauseButtons({Key? key, required this.gameRef}) : super(key: key);

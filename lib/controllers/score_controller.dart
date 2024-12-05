@@ -1,6 +1,6 @@
 import 'package:hive_flutter/adapters.dart';
-import 'package:dragon_jump/helpers/constant.dart';
-import 'package:dragon_jump/models/user_data.dart';
+import 'package:tiger_jump/helpers/constant.dart';
+import 'package:tiger_jump/models/user_data.dart';
 
 class ScoreController {
   late Box _box;
@@ -16,27 +16,24 @@ class ScoreController {
 
   void initBox() {
     _box.put(
-      kBoxScoreName,
-      UserData()
-        ..highestScore = 0
-
-        ..coin = 0
-        ..soundEffect = true
-        ..music = true
-        ..secondScore=0
-    );
+        kBoxScoreName,
+        UserData()
+          ..highestScore = 0
+          ..coin = 0
+          ..soundEffect = true
+          ..music = true
+          ..secondScore = 0);
   }
 
   int getHighestScore() {
     final UserData userData = _box.get(kBoxScoreName) as UserData;
     return userData.highestScore;
   }
-  int getseconedScore(){
-    final UserData userData =_box.get(kBoxScoreName) as UserData;
+
+  int getseconedScore() {
+    final UserData userData = _box.get(kBoxScoreName) as UserData;
     return userData.secondScore;
   }
-
-
 
   void setHighestScore(int newHighestScore) {
     final UserData userData = _box.get(kBoxScoreName) as UserData;
@@ -44,7 +41,7 @@ class ScoreController {
 
     if (newHighestScore > currentHighestScore) {
       userData.highestScore = newHighestScore;
-      userData.secondScore=currentHighestScore;
+      userData.secondScore = currentHighestScore;
       userData.save();
     }
   }

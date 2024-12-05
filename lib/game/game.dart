@@ -5,20 +5,20 @@ import 'package:flame/game.dart';
 import 'package:flame/input.dart';
 import 'package:flame/parallax.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:dragon_jump/controllers/score_controller.dart';
-import 'package:dragon_jump/game/basket_container.dart';
-import 'package:dragon_jump/game/basket_manager.dart';
-import 'package:dragon_jump/game/coin_manager.dart';
-import 'package:dragon_jump/game/game_text.dart';
-import 'package:dragon_jump/game/nest.dart';
-import 'package:dragon_jump/game/nest_data_manager.dart';
-import 'package:dragon_jump/game/player.dart';
-import 'package:dragon_jump/game/sound_player_component.dart';
-import 'package:dragon_jump/helpers/constant.dart';
-import 'package:dragon_jump/models/multiplayer_game_data.dart';
-import 'package:dragon_jump/overlays/game_over_menu.dart';
-import 'package:dragon_jump/overlays/pause_menu.dart';
-import 'package:dragon_jump/overlays/sound_pause_buttons.dart';
+import 'package:tiger_jump/controllers/score_controller.dart';
+import 'package:tiger_jump/game/basket_container.dart';
+import 'package:tiger_jump/game/basket_manager.dart';
+import 'package:tiger_jump/game/coin_manager.dart';
+import 'package:tiger_jump/game/game_text.dart';
+import 'package:tiger_jump/game/nest.dart';
+import 'package:tiger_jump/game/nest_data_manager.dart';
+import 'package:tiger_jump/game/player.dart';
+import 'package:tiger_jump/game/sound_player_component.dart';
+import 'package:tiger_jump/helpers/constant.dart';
+import 'package:tiger_jump/models/multiplayer_game_data.dart';
+import 'package:tiger_jump/overlays/game_over_menu.dart';
+import 'package:tiger_jump/overlays/pause_menu.dart';
+import 'package:tiger_jump/overlays/sound_pause_buttons.dart';
 
 late ParallaxComponent parallaxComponent;
 NestDataManager nestDataManager = NestDataManager();
@@ -93,7 +93,7 @@ class JumpingEgg extends FlameGame with TapDetector, HasCollidables {
         ..sprite = Sprite(
           images.fromCache('bg_component/healthBg.png'),
         )
-        ..size = Vector2(kBgComponentWidth-40, kBgComponentHeight-25)
+        ..size = Vector2(kBgComponentWidth - 40, kBgComponentHeight - 25)
         ..position = Vector2(size.x - kBgComponentMargin, kBgComponentMargin)
         ..anchor = Anchor.topRight,
     );
@@ -303,7 +303,7 @@ class JumpingEgg extends FlameGame with TapDetector, HasCollidables {
         singlePlayerGameOver();
         break;
       case AppLifecycleState.hidden:
-        // TODO: Handle this case.
+      // TODO: Handle this case.
     }
   }
 

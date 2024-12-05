@@ -1,5 +1,5 @@
 import 'package:flame/components.dart';
-import 'package:dragon_jump/helpers/constant.dart';
+import 'package:tiger_jump/helpers/constant.dart';
 
 class Basket extends SpriteComponent with HasGameRef {
   bool isFalling = false;

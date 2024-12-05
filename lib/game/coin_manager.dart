@@ -1,9 +1,9 @@
 import 'dart:math';
 
 import 'package:flame/components.dart';
-import 'package:dragon_jump/game/coin.dart';
-import 'package:dragon_jump/game/game.dart';
-import 'package:dragon_jump/helpers/constant.dart';
+import 'package:tiger_jump/game/coin.dart';
+import 'package:tiger_jump/game/game.dart';
+import 'package:tiger_jump/helpers/constant.dart';
 
 class CoinManager extends Component {
   late Random random;

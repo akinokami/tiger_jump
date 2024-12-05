@@ -3,8 +3,8 @@ import 'dart:ui';
 import 'package:flame/components.dart';
 import 'package:flame/geometry.dart';
 import 'package:flame/palette.dart';
-import 'package:dragon_jump/game/player.dart';
-import 'package:dragon_jump/helpers/constant.dart';
+import 'package:tiger_jump/game/player.dart';
+import 'package:tiger_jump/helpers/constant.dart';
 
 class Coin extends SpriteComponent with HasHitboxes, Collidable, HasGameRef {
   double _speedY = 0.0;

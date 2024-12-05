@@ -1,5 +1,4 @@
-
-import 'package:dragon_jump/utils/enum.dart';
+import 'package:tiger_jump/utils/enum.dart';
 
 class Global {
   static String language = Language.en.name;

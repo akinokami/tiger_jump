@@ -1,14 +1,14 @@
 import 'dart:io';
 
-import 'package:dragon_jump/screens/settings/game_setting_screen.dart';
-import 'package:dragon_jump/screens/widgets/custom_game_button.dart';
-import 'package:dragon_jump/utils/dimen_const.dart';
+import 'package:tiger_jump/screens/settings/game_setting_screen.dart';
+import 'package:tiger_jump/screens/widgets/custom_game_button.dart';
+import 'package:tiger_jump/utils/dimen_const.dart';
 import 'package:flutter/material.dart';
-import 'package:dragon_jump/controllers/score_controller.dart';
-import 'package:dragon_jump/controllers/server_client_controller.dart';
-import 'package:dragon_jump/helpers/constant.dart';
-import 'package:dragon_jump/models/multiplayer_game_data.dart';
-import 'package:dragon_jump/screens/game_play.dart';
+import 'package:tiger_jump/controllers/score_controller.dart';
+import 'package:tiger_jump/controllers/server_client_controller.dart';
+import 'package:tiger_jump/helpers/constant.dart';
+import 'package:tiger_jump/models/multiplayer_game_data.dart';
+import 'package:tiger_jump/screens/game_play.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:get/utils.dart';

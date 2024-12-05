@@ -1,7 +1,7 @@
-import 'package:dragon_jump/screens/settings/game_privacy_policy_screen.dart';
-import 'package:dragon_jump/screens/widgets/custom_card.dart';
-import 'package:dragon_jump/screens/widgets/custom_game_button.dart';
-import 'package:dragon_jump/screens/widgets/custom_text.dart';
+import 'package:tiger_jump/screens/settings/game_privacy_policy_screen.dart';
+import 'package:tiger_jump/screens/widgets/custom_card.dart';
+import 'package:tiger_jump/screens/widgets/custom_game_button.dart';
+import 'package:tiger_jump/screens/widgets/custom_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_switch/flutter_switch.dart';

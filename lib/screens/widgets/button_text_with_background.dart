@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:dragon_jump/helpers/constant.dart';
+import 'package:tiger_jump/helpers/constant.dart';
 
 class ButtonTextWithBackground extends StatefulWidget {
   final String title;

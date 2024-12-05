@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'package:flame/components.dart';
-import 'package:dragon_jump/game/basket_data.dart';
+import 'package:tiger_jump/game/basket_data.dart';
 
 class BasketDataManager {
   int _currentBasketData = 0;

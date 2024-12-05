@@ -1,4 +1,4 @@
-import 'package:dragon_jump/controllers/score_controller.dart';
+import 'package:tiger_jump/controllers/score_controller.dart';
 import 'package:get/get.dart';
 import '../models/multiplayer_game_data.dart';
 import '../screens/main_menu.dart';

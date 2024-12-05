@@ -1,11 +1,11 @@
 import 'package:flame/game.dart';
 import 'package:flutter/material.dart';
-import 'package:dragon_jump/controllers/score_controller.dart';
-import 'package:dragon_jump/game/game.dart';
-import 'package:dragon_jump/overlays/game_over_menu.dart';
-import 'package:dragon_jump/overlays/pause_menu.dart';
-import 'package:dragon_jump/overlays/sound_pause_buttons.dart';
-import 'package:dragon_jump/overlays/sound_settings_menu.dart';
+import 'package:tiger_jump/controllers/score_controller.dart';
+import 'package:tiger_jump/game/game.dart';
+import 'package:tiger_jump/overlays/game_over_menu.dart';
+import 'package:tiger_jump/overlays/pause_menu.dart';
+import 'package:tiger_jump/overlays/sound_pause_buttons.dart';
+import 'package:tiger_jump/overlays/sound_settings_menu.dart';
 
 import '../controllers/server_client_controller.dart';
 import '../models/multiplayer_game_data.dart';

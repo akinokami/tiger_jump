@@ -1,14 +1,14 @@
-import 'package:dragon_jump/language/languages.dart';
-import 'package:dragon_jump/screens/splash/splash_screen.dart';
-import 'package:dragon_jump/services/local_storage.dart';
-import 'package:dragon_jump/utils/color_const.dart';
-import 'package:dragon_jump/utils/global.dart';
+import 'package:tiger_jump/language/languages.dart';
+import 'package:tiger_jump/screens/splash/splash_screen.dart';
+import 'package:tiger_jump/services/local_storage.dart';
+import 'package:tiger_jump/utils/color_const.dart';
+import 'package:tiger_jump/utils/global.dart';
 import 'package:flame/flame.dart';
 import 'package:flutter/material.dart';
-import 'package:dragon_jump/controllers/score_controller.dart';
-import 'package:dragon_jump/controllers/server_client_controller.dart';
-import 'package:dragon_jump/models/multiplayer_game_data.dart';
-import 'package:dragon_jump/screens/main_menu.dart';
+import 'package:tiger_jump/controllers/score_controller.dart';
+import 'package:tiger_jump/controllers/server_client_controller.dart';
+import 'package:tiger_jump/models/multiplayer_game_data.dart';
+import 'package:tiger_jump/screens/main_menu.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 

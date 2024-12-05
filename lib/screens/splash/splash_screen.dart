@@ -1,7 +1,7 @@
-import 'package:dragon_jump/controllers/score_controller.dart';
-import 'package:dragon_jump/controllers/splash_controller.dart';
-import 'package:dragon_jump/my_game.dart';
-import 'package:dragon_jump/screens/main_menu.dart';
+import 'package:tiger_jump/controllers/score_controller.dart';
+import 'package:tiger_jump/controllers/splash_controller.dart';
+import 'package:tiger_jump/my_game.dart';
+import 'package:tiger_jump/screens/main_menu.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';

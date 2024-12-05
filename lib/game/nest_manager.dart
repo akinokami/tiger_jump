@@ -1,6 +1,6 @@
 import 'package:flame/components.dart';
-import 'package:dragon_jump/game/nest.dart';
-import 'package:dragon_jump/game/nest_data_manager.dart';
+import 'package:tiger_jump/game/nest.dart';
+import 'package:tiger_jump/game/nest_data_manager.dart';
 
 class NestManger extends SpriteComponent with HasGameRef {
   late final double _nestLowerPosition;

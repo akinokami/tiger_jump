@@ -1,5 +1,5 @@
 import 'package:audioplayers/audioplayers.dart';
-import 'package:dragon_jump/services/local_storage.dart';
+import 'package:tiger_jump/services/local_storage.dart';
 import 'package:get/get.dart';
 
 import '../utils/enum.dart';

@@ -3,8 +3,8 @@ import 'dart:ui';
 import 'package:flame/components.dart';
 import 'package:flame/geometry.dart';
 import 'package:flame/palette.dart';
-import 'package:dragon_jump/game/game.dart';
-import 'package:dragon_jump/helpers/constant.dart';
+import 'package:tiger_jump/game/game.dart';
+import 'package:tiger_jump/helpers/constant.dart';
 
 import 'coin.dart';
 

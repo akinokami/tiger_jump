@@ -10,8 +10,8 @@
 //   bool isClientRunning = false;
 //   String serverStatus = '';
 //   String clientStatus = '';
-//   String serverName = 'dragon_jump_server';
-//   String clientName = 'dragon_jump_client';
+//   String serverName = 'tiger_jump_server';
+//   String clientName = 'tiger_jump_client';
 //   bool isServerRunning = false;
 //
 //   // Server

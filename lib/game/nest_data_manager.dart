@@ -1,7 +1,7 @@
 import 'dart:math';
 
 import 'package:flame/components.dart';
-import 'package:dragon_jump/game/nest_data.dart';
+import 'package:tiger_jump/game/nest_data.dart';
 
 const width = 100.0;
 const height = 50.0;

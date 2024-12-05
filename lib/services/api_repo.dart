@@ -1,4 +1,4 @@
-import 'package:dragon_jump/services/api_utils.dart';
+import 'package:tiger_jump/services/api_utils.dart';
 
 class ApiRepo {
   final ApiUtils apiUtils = ApiUtils();

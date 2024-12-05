@@ -1,5 +1,5 @@
 // import 'package:flame_audio/flame_audio.dart';
-import 'package:dragon_jump/game/game.dart';
+import 'package:tiger_jump/game/game.dart';
 import 'package:flame/components.dart';
 
 class SoundPlayerComponent extends Component {

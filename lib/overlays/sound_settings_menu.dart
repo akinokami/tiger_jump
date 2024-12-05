@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:dragon_jump/controllers/score_controller.dart';
-import 'package:dragon_jump/game/game.dart';
-import 'package:dragon_jump/overlays/sound_pause_buttons.dart';
+import 'package:tiger_jump/controllers/score_controller.dart';
+import 'package:tiger_jump/game/game.dart';
+import 'package:tiger_jump/overlays/sound_pause_buttons.dart';
 
 class SoundSettingsMenu extends StatefulWidget {
   final JumpingEgg gameRef;
