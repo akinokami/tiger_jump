@@ -27,6 +27,7 @@ class GameSettingScreen extends StatelessWidget {
         //     fit: BoxFit.cover,
         //   ),
         // ),
+        color: Color(0xffeae2ee),
         child: Padding(
           padding: EdgeInsets.all(10.w),
           child: ListView(

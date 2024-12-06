@@ -144,8 +144,6 @@ class _MyGameState extends State<MyGame> {
 
   @override
   Widget build(BuildContext context) {
-    final soundController = Get.put(SoundController());
-    soundController.playSound();
     return MainMenu(
       scoreController: widget.scoreController,
       multiplayerGameData: widget.multiplayerGameData,

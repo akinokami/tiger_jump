@@ -29,3 +29,6 @@ Color iconGrey = const Color(0xFFB6B6B6);
 Color silver = const Color(0xFFC0C0C0);
 
 Color backgroundColor = const Color(0xfffaf8ef);
+
+Color kCharacterColor = Color(0xffd374d8);
+Color kMainTitleColor = Color(0xff94008d);

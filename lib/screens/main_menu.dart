@@ -1,5 +1,6 @@
 import 'dart:io';
 
+import 'package:tiger_jump/controllers/sound_controller.dart';
 import 'package:tiger_jump/screens/settings/game_setting_screen.dart';
 import 'package:tiger_jump/screens/widgets/custom_game_button.dart';
 import 'package:tiger_jump/utils/dimen_const.dart';
@@ -24,6 +25,8 @@ class MainMenu extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final soundController = Get.put(SoundController());
+    soundController.playSound();
     return Scaffold(
       backgroundColor: Color(0xffeae2ee),
       body: Column(
